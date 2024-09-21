@@ -3,10 +3,10 @@ using namespace std;
 int main() 
 {
 	cout << "CAR  PARKING" << endl; 
-	while (true) {
+	int enter;
+	int car = 0, bike = 0, bus = 0, record = 0;
 
-		int enter;
-		int car = 0, bike = 0, bus = 0, record = 0;
+	while (true) {
 
 		cout << "Press 1 to enter car" <<endl;
 		cout << "Press 2 to enter bike" <<endl;
